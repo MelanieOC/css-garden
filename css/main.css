@@ -1,5 +1,5 @@
 /* Agrega aquí tus estilos*/
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Josefin+Sans|Julee|Quicksand|Signika');
+@import url('https://fonts.googleapis.com/css?family=Allura|Gloria+Hallelujah|Handlee|Indie+Flower|Patrick+Hand|Permanent+Marker|Sedgwick+Ave|Signika');
 
 header{
   height: 250px;
@@ -9,12 +9,16 @@ header{
   left: 0;
   color: white;
   text-shadow: 1px 1px black;
+  font-family: 'Sedgwick Ave';
   padding: 15px;
   text-align: center;
   background-image: url('https://www.decohunter.com/images/blog/2016/Lourdes/Jardin_Zen/1_jardin_zen_Decohunter.jpg');
   background-size: cover;
 }
 
+ #zen-summary{
+   font-family: 'Handlee';
+ }
 
 [role=article]{
   padding: 10px;
@@ -54,6 +58,7 @@ abbr{
   text-decoration: none;
   font-family: 'Signika';
 }
+
 footer{
   text-align: center;
   padding: 30px;
@@ -84,27 +89,40 @@ aside{
   left: 0;
 }
 
-aside li{/*rayas*/
-  padding: 10px;
-  border-bottom: 1px solid;
+aside li{
+  left: 0;
+  padding-top: 10px;
+  border-bottom: 1px solid #ECDCC2;
   list-style: none;
+  font-family: 'Allura';
 }
-
+aside li:hover{
+  background-color: #ECF77B;
+}
 .wrapper div{
-  background-color: #ACD05F;/*verde feo*/
+  background-color: #ACD05F;
   padding-top: 0;
   margin-top: 20px;
   padding-bottom: 20px;
   font-size: 120%;
 }
 
-.wrapper h3{/*titulos*/
+.wrapper h3{
   text-align: center;
   color: white;
   text-shadow: 2px 2px black;
   height: 50px;
+  font-family: 'Permanent Marker';
+  font-size: 30px;
   background-image: url('http://cdna.labioguia.com/images/articles/58062658cdb78_crop.jpg');
   background-size: cover;
+}
+.wrapper a{
+  color: white;
+  text-decoration: none;
+}
+.wrapper a:hover{
+  text-shadow: 1px 1px black;
 }
 .design-name{
   font-family:'Signika';
@@ -112,8 +130,10 @@ aside li{/*rayas*/
   color: white;
   text-decoration: none;
 }
+.designer-name{
+  font-family: 'Patrick Hand';
+}
 
-.wrapper a{/*enlaces*/
-  color: white;
-  text-decoration: none;
+#design-archives a, #zen-resources a{
+  font-family: 'Handlee';
 }
